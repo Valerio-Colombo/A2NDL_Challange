@@ -11,3 +11,6 @@ ipython_config.py
 
 # MacOS
 .DS_Store
+
+# Training Results
+*/classification_experiments/*
