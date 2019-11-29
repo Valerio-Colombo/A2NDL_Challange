@@ -1,0 +1,9 @@
+NAME_1: Valerio
+LAST-NAME_1: Colombo
+STUDENT-ID_1: 10499221
+NAME_2: Riccardo
+LAST-NAME_2: Confalonieri
+STUDENT-ID_2: 10493823
+LEADERBOARD NICKNAME: 10499221-10493823
+
+In the attached zip file we put 2 notebooks (one with transfer learning and one without) and a pdf with a short explaination about our work. We didn't provide the JSON file since we automatically choose the images for validation using a fixed seed.
