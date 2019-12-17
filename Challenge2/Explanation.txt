@@ -1,3 +1,5 @@
-Our first approach was to take the code shown at lesson to perform segmentation as example. Of course we changed everything needed to make it work correctly with the new data (such as "ImageDataGenerator" and "flow_from_directory" functions). In particular we changed the depth of the model and the number of filters, trying to tune these values to obtain the best score. We also increased the learning rate. Doing this we obtained the best score of 0.28038.
+Our first approach was to take the code shown at lesson to perform segmentation as example. Of course we changed everything needed to make it work correctly with the new data (such as "ImageDataGenerator" and "flow_from_directory" functions). In particular we changed the depth of the model, the number of filters and the batch size trying to tune these values to obtain the best score. We also increased the learning rate. Doing this we obtained the best score of 0.28038.
 
 After that we tried to implement tranfer learning, updating the previous model following an example found between tensorflow tutorials. Anyway we didn't succeed in improving our previous result and we got the best score of 0.22860
+
+We didn't provide any JSON with the dataset split, since we did it automatically setting a fixed seed.
